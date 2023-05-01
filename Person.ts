@@ -8,4 +8,8 @@ export class Person {
 		this.peso = peso;
 		this.altura = altura;
 	}
+
+	calculateIMC(): string {
+		return (this.peso / (this.altura * this.altura)).toFixed(1);
+	}
 }
