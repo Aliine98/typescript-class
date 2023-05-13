@@ -10,6 +10,10 @@ Minha resolução dos exercícios do Bootcamp de Angular da DIO usando typescrip
 - ### Exercício 1
 
 Uma classe "Car" com um método para calcular o gasto em Reais para fazer uma viagem considerando a quantidade em quilômetros da viagem, quantos quilômetros por litro de combustível o carro faz e o preço do combustível. E no `index.ts` é feito a instanciação dos objetos usando a classe Car.
+
+- ### Exercício 2
+
+Uma classe "Person" com um método para calcular o IMC usando os atributos peso e altura. O objeto e método são usados no `index.ts`. 
 <br><br>
 
 ## 🚀 Rodando localmente
@@ -25,6 +29,25 @@ Entre no diretório do projeto
 ```bash
   cd typescript-class
 ```
+
+Instale o typescript, caso não tenha
+
+```bash
+  npm install --global typescript
+```
+
+Transpile em código Javascript
+
+```bash
+  tsc index.ts
+```
+
+Agora pode rodar os arquivos .js usando node
+
+```bash
+  node index.js
+```
+<br>
 
 ## 📝 Licença
 
