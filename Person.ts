@@ -1,15 +1,15 @@
 export class Person {
-	nome: string;
-	peso: number;
-	altura: number;
+	name: string;
+	weight: number;
+	height: number;
 
-	constructor(nome: string, peso: number, altura: number) {
-		this.nome = nome;
-		this.peso = peso;
-		this.altura = altura;
+	constructor(name: string, weight: number, height: number) {
+		this.name = name;
+		this.weight = weight;
+		this.height = height;
 	}
 
 	calculateIMC(): string {
-		return (this.peso / (this.altura * this.altura)).toFixed(1);
+		return (this.weight / (this.height * this.height)).toFixed(1);
 	}
 }
